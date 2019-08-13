@@ -1,0 +1,14 @@
+namespace ConsoleApp1
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            string name;
+            System.Console.WriteLine("enter your name?");
+            name=System.Console.ReadLine();
+            System.Console.WriteLine("hi "  +name+  " welcome to .net world..");
+            System.Console.Read();
+        }
+    }
+}
